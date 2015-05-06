@@ -10,10 +10,10 @@ class TemplateTest extends PHPUnit_Framework_TestCase
 {
     public function testTemplateIncludesUsername()
     {
-        $template ='user';
+        $template ='templates/user.php';
         $variables = ['username' => 'Demo user'];
         $view = Template::make($template, $variables);
-        $this->assertContains('Demo user', $view, 'Demo user found');
+        $this->assertContains('Demo user', $view);
     }
 
     /**
@@ -22,7 +22,7 @@ class TemplateTest extends PHPUnit_Framework_TestCase
      */
     public function testTemplateThrowsWhenNoFileExists()
     {
-        $template = dirname(__DIR__) . '/templates/user.php';
-        Template::make($template, []);
+        $template = 'templates/error.php';
+        Template::make($template, array());
     }
 }

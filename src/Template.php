@@ -43,6 +43,20 @@ class Template
 
     public function render()
     {
-        throw new Exception('not implemented!');
+        $template = __DIR__ . '/' . $this->template;
+
+        if(!file_exists($template)) {
+            throw new Exception('Template not found');
+
+        }
+
+        ob_start();
+
+        extract($this->variables);
+        require($template);
+
+        return ob_get_clean();
+
+
     }
 }
