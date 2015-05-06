@@ -1,0 +1,13 @@
+{
+    "name": "php example",
+    "description": "something or other",
+    "require": {
+        "php": ">=5.3.3",
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}

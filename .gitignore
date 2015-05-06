@@ -1,0 +1,12 @@
+tests/TextUI/*.diff
+tests/TextUI/*.exp
+tests/TextUI/*.log
+tests/TextUI/*.out
+tests/TextUI/*.php
+/bin
+/vendor
+/composer.lock
+/composer.phar
+cache.properties
+.idea
+.ant_targets
