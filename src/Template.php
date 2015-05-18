@@ -8,11 +8,11 @@
  */
 class Template
 {
-  /**
-   * @return string
-   */
-  public static function render($template, $values)
-  {
-    throw new Exception('Not implemented');
-  }
+    /**
+     * @return string
+     */
+    public static function render($template, $values)
+    {
+        throw new Exception('Not implemented');
+    }
 }
