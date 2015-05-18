@@ -1,11 +1,5 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: daniel.chalk
- * Date: 06/05/2015
- * Time: 10:55
- */
 class TemplateTest extends PHPUnit_Framework_TestCase
 {
     public function testTemplateIncludesUsername()
