@@ -3,7 +3,7 @@
     "description": "something or other",
     "require": {
         "php": ">=5.3.3",
-        "phpunit/phpunit": "*"
+        "phpunit/phpunit": "^5"
     },
     "autoload": {
         "classmap": [
