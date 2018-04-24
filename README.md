@@ -24,4 +24,4 @@ composer install
 
 Composer is already configured to autoload anything in the 'src' directory, put your source code in there.
 
-Feel free to ready documentation, it should be encouraged.
+Feel free to read documentation, it should be encouraged.
