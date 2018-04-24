@@ -4,9 +4,9 @@ class TemplateTest extends PHPUnit_Framework_TestCase
 {
     public function testTemplateUsesVariable()
     {
-        $template  = 'say_hello';
-        $variables = ['username' => 'world'];
-        $view      = Template::render($template_file, $variables);
+        $template_file  = 'say_hello';
+        $variables      = ['username' => 'world'];
+        $view           = Template::render($template_file, $variables);
         $this->assertContains('Hello world!', $view);
     }
 
