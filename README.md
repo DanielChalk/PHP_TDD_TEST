@@ -1,16 +1,21 @@
-# Todo
+# Test
 
-We have a function and a template you need to implement, your function will be affected by the type of template you're trying to create. 
-
-If you're successful in creating these, the unit tests will pass.
-
-May i suggest you look at the tests first!
+Look at the unit tests and implement was is necessary to make them pass.
 
 Enjoy.
 
-# running unit tests
+## Setup
+
+- Install PHP 5.3+
+- Install Composer
+- Install Dependencies (shown below)
 
 ```bash
-cd /to/the/project
-vendor\bin\phpunit tests
+composer install
+```
+
+## Running unit tests
+
+```bash
+./vendor/bin/phpunit test
 ```
