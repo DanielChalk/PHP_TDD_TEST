@@ -17,7 +17,7 @@ composer install
 ## Running unit tests
 
 ```bash
-./vendor/bin/phpunit test
+./vendor/bin/phpunit tests
 ```
 
 ## Help
